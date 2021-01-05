@@ -1006,11 +1006,11 @@ public:
 using namespace std;
 int main()
 {
-	Teacher t1("Alexandra_Sergeevna_Sidorovich", 4, 10, "OAIP", 6);
-	Teacher t2("Sergey_Valentinovich_Batyukov", 3, 4, "TEC", 3);
-	Teacher t3("Iuliia_Yurievna_Zheltko", 2, 9, "KPiAP", 7);
-	Teacher t4("Konstantin_Igorevich_Davydovich", 3, 12, "BZH", 8);
-	Teacher t5("Svetlana_Sergeevna_Stoma", 4, 4, "EP", 3);
+	Teacher t1("Ivan_Ivanich_Ivanov", 4, 9, "Math", 6);
+	Teacher t2("Sergey_Davidovich_Tumanov", 4, 10, "Physics", 3);
+	Teacher t3("Kate_Alexandrovna_Lisichenok", 3, 5, "Russian", 2);
+	Teacher t4("Elena_Antonovna_Savina", 2, 12, "History", 8);
+	Teacher t5("Alexandr_Alexandrovich_Blizko", 6, 7, "PE", 3);
 	Teacher un[5] = { t1,t2,t3,t4,t5 };
 	cout << "\n-------TXT in TXT mode-------\n";
 	File f1("1.txt", txt);
